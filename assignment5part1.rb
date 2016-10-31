@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
+#Assignmnet #5 Part 1
+#CS417 OOP
+#Due November 1, 2016
+
 def occurrences(list,key)
 	return list.count(key)
 end
