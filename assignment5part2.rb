@@ -1,3 +1,9 @@
+#!/usr/bin/env ruby
+#Assignmnet #5 Part 2
+#CS417 OOP
+#By John Knowles
+#Due November 1, 2016
+
 def numSmaller(list,item)
 	if(list.count > 0) then
 		return list.count{|val| val.to_i<item.to_i}
