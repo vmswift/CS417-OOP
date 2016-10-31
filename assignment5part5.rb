@@ -1,10 +1,12 @@
 class List
 	def initialize()
 	@lists = Hash.new
+	@size = 0
 	end
 	
 	def insert(val)
-		@lists.store(@lists.length+1,val)
+		@lists.store(@size+1,val)
+		@size+=1
 	end
 	
 	def prints()
@@ -44,4 +46,7 @@ myList.traverse()
 myList.delete("Bacon")
 myList.prints()
 myList.insert("Pork")
+myList.insert("Sausage")
+myList.insert("Pig")
 myList.prints()
+myList.traverse()
